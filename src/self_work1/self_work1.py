@@ -6,10 +6,6 @@
 """
 
 
-def get_number_input(promt):
-    pass
-
-
 def main():
     num1 = get_number_input("Введите первое число: ")
     num2 = get_number_input("Введите второе число: ")
