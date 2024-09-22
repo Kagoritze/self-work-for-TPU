@@ -2,4 +2,6 @@
 
 .conda/
 
-*.xlsx
+/self_work4/*.xlsx
+
+/__pycache__/
