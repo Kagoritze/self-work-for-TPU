@@ -1,4 +1,4 @@
 host = "localhost"
 user = "postgres"
-password = "123456"
+password = "qwerty"
 db_name = "self_work6"
