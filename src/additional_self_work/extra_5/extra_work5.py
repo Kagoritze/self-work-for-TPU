@@ -52,7 +52,7 @@ class MatrixApp:
                 row = list(map(float, line.split()))
                 matrix.append(row)
             return np.array(matrix)
-        except Exception as e:
+        except Exception:
             messagebox.showerror(
                 "Input Error",
                 "Invalid matrix input. Please ensure you enter numeric values.",
