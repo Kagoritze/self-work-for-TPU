@@ -24,7 +24,7 @@ def main():
 
     print("=" * 20)
 
-    sorted_arr, elapsed_time = measure_time(selection_sort, arr.copy)
+    sorted_arr, elapsed_time = measure_time(selection_sort, arr.copy())
     print(f"Время сортировки выбором: {elapsed_time:.6f} секунд")
 
     sorted_arr, elapsed_time = measure_time(inserts_sort, arr.copy())
